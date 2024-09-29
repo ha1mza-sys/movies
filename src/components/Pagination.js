@@ -2,6 +2,7 @@ import React from 'react'
 import ReactPaginate from 'react-paginate';
 
 const PaginationComponent = ({ getPage ,pageCount}) => {
+    // test branch
     const handlePageClick = (data) => {
         console.log(data.selected + 1)
         getPage(data.selected + 1)
